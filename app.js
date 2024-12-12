@@ -13,3 +13,5 @@ app.get('/add', (req, res) => {
  return res.json({ result: result});
 }); 
 //app.listen(port,() => {console.log('Server running on'+port)});
+
+module.exports = app;
